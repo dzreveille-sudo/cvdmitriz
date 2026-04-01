@@ -56,16 +56,16 @@ export default function ResumePortfolioSite() {
             <div className="mt-1 text-sm text-[#555551]">Имя Фамилия</div>
           </div>
           <div className="hidden gap-3 md:flex">
-            <a href="#about" className="rounded-full border border-[#8a8a84] bg-white/30 px-4 py-2 text-sm text-[#353531] transition duration-300 hover:-translate-y-0.5 hover:bg-white/50 hover:shadow-md">
+            <a href="#about" className="rounded-full border border-[#8a8a84] bg-[#ecece7] px-4 py-2 text-sm text-[#353531] transition duration-300 hover:-translate-y-0.5 hover:bg-white/50 hover:shadow-md">
               Обо мне
             </a>
-            <a href="#experience" className="rounded-full border border-[#8a8a84] bg-white/30 px-4 py-2 text-sm text-[#353531] transition duration-300 hover:-translate-y-0.5 hover:bg-white/50 hover:shadow-md">
+            <a href="#experience" className="rounded-full border border-[#8a8a84] bg-[#ecece7] px-4 py-2 text-sm text-[#353531] transition duration-300 hover:-translate-y-0.5 hover:bg-white/50 hover:shadow-md">
               Опыт
             </a>
-            <a href="#portfolio" className="rounded-full border border-[#8a8a84] bg-white/30 px-4 py-2 text-sm text-[#353531] transition duration-300 hover:-translate-y-0.5 hover:bg-white/50 hover:shadow-md">
+            <a href="#portfolio" className="rounded-full border border-[#8a8a84] bg-[#ecece7] px-4 py-2 text-sm text-[#353531] transition duration-300 hover:-translate-y-0.5 hover:bg-white/50 hover:shadow-md">
               Проекты
             </a>
-            <a href="#certificates" className="rounded-full border border-[#8a8a84] bg-white/30 px-4 py-2 text-sm text-[#353531] transition duration-300 hover:-translate-y-0.5 hover:bg-white/50 hover:shadow-md">
+            <a href="#certificates" className="rounded-full border border-[#8a8a84] bg-[#ecece7] px-4 py-2 text-sm text-[#353531] transition duration-300 hover:-translate-y-0.5 hover:bg-white/50 hover:shadow-md">
               Сертификаты
             </a>
           </div>
@@ -74,7 +74,7 @@ export default function ResumePortfolioSite() {
 
       <main>
         <section id="about" className="mx-auto grid max-w-6xl grid-cols-1 items-center gap-6 px-6 py-8 lg:grid-cols-[1.45fr_0.85fr]">
-          <div className="relative overflow-hidden rounded-[2rem] border border-white/35 bg-[linear-gradient(180deg,_rgba(255,255,255,0.58),_rgba(233,233,228,0.72))] p-7 shadow-[0_14px_40px_rgba(65,65,55,0.10)] ring-1 ring-black/5 transition duration-300 hover:-translate-y-1 hover:shadow-[0_22px_55px_rgba(65,65,55,0.14)] lg:p-8">
+          <div className="relative overflow-hidden rounded-[2rem] border border-[#575752] bg-[linear-gradient(180deg,_rgba(255,255,255,0.58),_rgba(233,233,228,0.72))] p-7 shadow-[0_14px_40px_rgba(65,65,55,0.10)] ring-1 ring-black/5 transition duration-300 hover:-translate-y-1 hover:shadow-[0_22px_55px_rgba(65,65,55,0.14)] lg:p-8">
             <div className="absolute inset-x-0 top-0 h-20 bg-[linear-gradient(90deg,_rgba(255,255,255,0.45),_transparent)]" />
             <div className="relative">
               <div className="mb-5 inline-flex rounded-full border border-[#9a9a93] bg-white/45 px-4 py-2 text-[12px] font-medium uppercase tracking-[0.18em] text-[#5a5a55]">
@@ -88,15 +88,15 @@ export default function ResumePortfolioSite() {
               </p>
 
               <div className="mt-7 grid gap-3 md:grid-cols-3">
-                <div className="rounded-2xl border border-white/50 bg-white/35 p-4 shadow-[inset_0_1px_0_rgba(255,255,255,0.55)] transition duration-300 hover:-translate-y-1 hover:bg-white/50">
+                <div className="rounded-2xl border border-[#575752] bg-white/35 p-4 shadow-[inset_0_1px_0_rgba(255,255,255,0.55)] transition duration-300 hover:-translate-y-1 hover:bg-white/50">
                   <div className="text-xs uppercase tracking-[0.16em] text-[#73736d]">Специализация</div>
                   <div className="mt-2 text-sm font-medium text-[#2c2c29]">Дизайнер / маркетолог / менеджер</div>
                 </div>
-                <div className="rounded-2xl border border-white/50 bg-white/35 p-4 shadow-[inset_0_1px_0_rgba(255,255,255,0.55)] transition duration-300 hover:-translate-y-1 hover:bg-white/50">
+                <div className="rounded-2xl border border-[#575752] bg-white/35 p-4 shadow-[inset_0_1px_0_rgba(255,255,255,0.55)] transition duration-300 hover:-translate-y-1 hover:bg-white/50">
                   <div className="text-xs uppercase tracking-[0.16em] text-[#73736d]">Город</div>
                   <div className="mt-2 text-sm font-medium text-[#2c2c29]">Твой город</div>
                 </div>
-                <div className="rounded-2xl border border-white/50 bg-white/35 p-4 shadow-[inset_0_1px_0_rgba(255,255,255,0.55)] transition duration-300 hover:-translate-y-1 hover:bg-white/50">
+                <div className="rounded-2xl border border-[#575752] bg-white/35 p-4 shadow-[inset_0_1px_0_rgba(255,255,255,0.55)] transition duration-300 hover:-translate-y-1 hover:bg-white/50">
                   <div className="text-xs uppercase tracking-[0.16em] text-[#73736d]">Контакты</div>
                   <div className="mt-2 text-sm font-medium text-[#2c2c29]">email / Telegram / телефон</div>
                 </div>
@@ -117,7 +117,7 @@ export default function ResumePortfolioSite() {
         </section>
 
         <section id="experience" className="mx-auto max-w-6xl px-6 pb-6">
-          <div className="relative overflow-hidden rounded-[2rem] border border-white/35 bg-[linear-gradient(180deg,_rgba(255,255,255,0.56),_rgba(233,233,228,0.72))] p-6 shadow-[0_14px_40px_rgba(65,65,55,0.10)] ring-1 ring-black/5 transition duration-300 hover:-translate-y-1 hover:shadow-[0_22px_55px_rgba(65,65,55,0.14)]">
+          <div className="relative overflow-hidden rounded-[2rem] border border-[#575752] bg-[linear-gradient(180deg,_rgba(255,255,255,0.6),_rgba(230,230,224,0.75))] p-6 shadow-[0_14px_40px_rgba(65,65,55,0.10)] ring-1 ring-black/5 transition duration-300 hover:-translate-y-1 hover:shadow-[0_22px_55px_rgba(65,65,55,0.14)]">
             <div className="absolute inset-x-0 top-0 h-16 bg-[linear-gradient(90deg,_rgba(255,255,255,0.35),_transparent)]" />
             <div className="relative">
               <div className="mb-4 inline-flex rounded-full border border-[#9a9a93] bg-white/45 px-4 py-2 text-[12px] font-medium uppercase tracking-[0.18em] text-[#5a5a55]">
@@ -126,7 +126,7 @@ export default function ResumePortfolioSite() {
               <h2 className="text-3xl font-semibold tracking-[-0.02em] text-[#232320]">Профессиональный путь</h2>
               <div className="mt-5 space-y-3">
                 {experiences.map((e, i) => (
-                  <div key={i} className="rounded-2xl border border-white/45 bg-white/35 p-4 shadow-[inset_0_1px_0_rgba(255,255,255,0.52)] transition duration-300 hover:-translate-y-1 hover:bg-white/48 hover:shadow-md">
+                  <div key={i} className="rounded-2xl border border-[#575752] bg-white/35 p-4 shadow-[inset_0_1px_0_rgba(255,255,255,0.52)] transition duration-300 hover:-translate-y-1 hover:bg-white/48 hover:shadow-md">
                     <div className="text-xs uppercase tracking-[0.16em] text-[#74746e]">{e.period}</div>
                     <div className="mt-2 text-lg font-medium text-[#262623]">
                       {e.role} <span className="text-[#5a5a55]">— {e.company}</span>
@@ -140,7 +140,7 @@ export default function ResumePortfolioSite() {
         </section>
 
         <section id="portfolio" className="mx-auto max-w-6xl px-6 pb-6">
-          <div className="relative overflow-hidden rounded-[2rem] border border-white/35 bg-[linear-gradient(180deg,_rgba(255,255,255,0.56),_rgba(233,233,228,0.72))] p-6 shadow-[0_14px_40px_rgba(65,65,55,0.10)] ring-1 ring-black/5 transition duration-300 hover:-translate-y-1 hover:shadow-[0_22px_55px_rgba(65,65,55,0.14)]">
+          <div className="relative overflow-hidden rounded-[2rem] border border-[#575752] bg-[linear-gradient(180deg,_rgba(255,255,255,0.6),_rgba(230,230,224,0.75))] p-6 shadow-[0_14px_40px_rgba(65,65,55,0.10)] ring-1 ring-black/5 transition duration-300 hover:-translate-y-1 hover:shadow-[0_22px_55px_rgba(65,65,55,0.14)]">
             <div className="absolute inset-x-0 top-0 h-16 bg-[linear-gradient(90deg,_rgba(255,255,255,0.35),_transparent)]" />
             <div className="relative">
               <div className="mb-4 inline-flex rounded-full border border-[#9a9a93] bg-white/45 px-4 py-2 text-[12px] font-medium uppercase tracking-[0.18em] text-[#5a5a55]">
@@ -152,7 +152,7 @@ export default function ResumePortfolioSite() {
               </p>
               <ul className="mt-6 space-y-4">
                 {portfolioItems.map((p, i) => (
-                  <li key={i} className="group flex gap-4 rounded-2xl border border-white/40 bg-white/30 p-4 shadow-[inset_0_1px_0_rgba(255,255,255,0.5)] transition duration-300 hover:-translate-y-1 hover:bg-white/46 hover:shadow-md">
+                  <li key={i} className="group flex gap-4 rounded-2xl border border-[#575752] bg-[#ecece7] p-4 shadow-[inset_0_1px_0_rgba(255,255,255,0.5)] transition duration-300 hover:-translate-y-1 hover:bg-white/46 hover:shadow-md">
                     <div className="mt-2 h-2.5 w-2.5 rounded-full bg-[#72726d] transition duration-300 group-hover:scale-125" />
                     <div>
                       <div className="text-lg font-medium text-[#262623]">{p.title}</div>
@@ -166,7 +166,7 @@ export default function ResumePortfolioSite() {
         </section>
 
         <section id="certificates" className="mx-auto max-w-6xl px-6 pb-10">
-          <div className="relative overflow-hidden rounded-[2rem] border border-white/35 bg-[linear-gradient(180deg,_rgba(255,255,255,0.56),_rgba(233,233,228,0.72))] p-6 shadow-[0_14px_40px_rgba(65,65,55,0.10)] ring-1 ring-black/5 transition duration-300 hover:-translate-y-1 hover:shadow-[0_22px_55px_rgba(65,65,55,0.14)]">
+          <div className="relative overflow-hidden rounded-[2rem] border border-[#575752] bg-[linear-gradient(180deg,_rgba(255,255,255,0.6),_rgba(230,230,224,0.75))] p-6 shadow-[0_14px_40px_rgba(65,65,55,0.10)] ring-1 ring-black/5 transition duration-300 hover:-translate-y-1 hover:shadow-[0_22px_55px_rgba(65,65,55,0.14)]">
             <div className="absolute inset-x-0 top-0 h-16 bg-[linear-gradient(90deg,_rgba(255,255,255,0.35),_transparent)]" />
             <div className="relative">
               <div className="mb-4 inline-flex rounded-full border border-[#9a9a93] bg-white/45 px-4 py-2 text-[12px] font-medium uppercase tracking-[0.18em] text-[#5a5a55]">
@@ -175,8 +175,8 @@ export default function ResumePortfolioSite() {
               <h2 className="text-3xl font-semibold tracking-[-0.02em] text-[#232320]">Подтверждение опыта</h2>
               <div className="mt-6 grid gap-4 md:grid-cols-3">
                 {certificates.map((c, i) => (
-                  <div key={i} className="group rounded-[1.5rem] border border-white/40 bg-white/30 p-3 shadow-[inset_0_1px_0_rgba(255,255,255,0.5)] transition duration-300 hover:-translate-y-1 hover:bg-white/46 hover:shadow-lg">
-                    <div className="overflow-hidden rounded-[1rem] border border-white/45 bg-[#ecece7]">
+                  <div key={i} className="group rounded-[1.5rem] border border-[#575752] bg-[#ecece7] p-3 shadow-[inset_0_1px_0_rgba(255,255,255,0.5)] transition duration-300 hover:-translate-y-1 hover:bg-white/46 hover:shadow-lg">
+                    <div className="overflow-hidden rounded-[1rem] border border-[#575752] bg-[#ecece7]">
                       <img
                         src={c.image}
                         alt={c.title}
