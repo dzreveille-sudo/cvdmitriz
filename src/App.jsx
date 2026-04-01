@@ -145,7 +145,7 @@ export default function ResumePortfolioSite() {
           <div className="flex items-start justify-center lg:justify-end">
             <div className="rounded-full border border-[#3f3f3b] bg-[linear-gradient(180deg,_rgba(85,85,80,0.95),_rgba(56,56,52,0.95))] p-[10px] shadow-[0_15px_35px_rgba(0,0,0,0.16)] transition duration-300 hover:scale-[1.02] hover:shadow-[0_20px_45px_rgba(0,0,0,0.2)]">
               <img
-                src="/avatar.png"
+                src={`${import.meta.env.BASE_URL}avatar.png`}
                 alt="Портрет"
                 className="h-[220px] w-[220px] rounded-full object-cover md:h-[260px] md:w-[260px]"
               />
