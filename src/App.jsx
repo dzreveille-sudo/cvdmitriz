@@ -21,7 +21,7 @@ export default function ResumePortfolioSite() {
   return (
     <div className="min-h-screen bg-[#d6d6d1] bg-[radial-gradient(circle_at_top_left,_rgba(255,255,255,0.25),_transparent_40%),linear-gradient(180deg,_#dcdcd7_0%,_#cfcfca_100%)] text-[#2a2a27]">
       <main>
-        <section className="mx-auto grid max-w-6xl grid-cols-1 gap-3 px-6 py-8 lg:grid-cols-[1.4fr_0.9fr]">
+        <section className="mx-auto grid max-w-7xl grid-cols-1 gap-4 px-6 py-10 lg:grid-cols-[1.6fr_0.9fr]">
           <div className="rounded-2xl border border-[#7a7a74] bg-[#e3e3de] p-6 shadow-md transition duration-300 hover:-translate-y-1 hover:shadow-lg">
             <h1 className="text-3xl font-semibold">Имя Фамилия</h1>
             <p className="mt-4 text-[#4a4a46]">Коротко о себе: чем занимаешься и какую ценность даешь.</p>
