@@ -21,8 +21,8 @@ export default function ResumePortfolioSite() {
   return (
     <div className="min-h-screen bg-[#d6d6d1] bg-[radial-gradient(circle_at_top_left,_rgba(255,255,255,0.25),_transparent_40%),linear-gradient(180deg,_#dcdcd7_0%,_#cfcfca_100%)] text-[#2a2a27]">
       <main>
-        <section className="mx-auto grid max-w-7xl grid-cols-1 gap-4 px-6 py-10 lg:grid-cols-[1.6fr_0.9fr]">
-          <div className="rounded-2xl border border-[#7a7a74] bg-[#e3e3de] p-6 shadow-md transition duration-300 hover:-translate-y-1 hover:shadow-lg">
+        <section className="mx-auto grid max-w-6xl grid-cols-1 items-center gap-6 px-6 py-8 lg:grid-cols-[1.45fr_0.85fr]">
+          <div className="rounded-2xl border border-[#7a7a74] bg-[#e3e3de] p-7 shadow-md transition duration-300 hover:-translate-y-1 hover:shadow-lg lg:p-8">
             <h1 className="text-3xl font-semibold">Имя Фамилия</h1>
             <p className="mt-4 text-[#4a4a46]">Коротко о себе: чем занимаешься и какую ценность даешь.</p>
 
@@ -33,9 +33,9 @@ export default function ResumePortfolioSite() {
             </div>
           </div>
 
-          <div className="flex items-center justify-center">
+          <div className="flex items-center justify-center lg:justify-start">
             <div className="rounded-full border border-[#5a5a55] bg-[#dcdcd7] p-[8px] shadow-md transition duration-300 hover:scale-[1.03]">
-              <img src={avatarImg} alt="avatar" className="h-[280px] w-[280px] rounded-full object-cover" />
+              <img src={avatarImg} alt="avatar" className="h-[260px] w-[260px] rounded-full object-cover md:h-[280px] md:w-[280px]" />
             </div>
           </div>
         </section>
