@@ -51,9 +51,9 @@ export default function ResumePortfolioSite() {
         <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
           <div>
             <div className="text-[11px] font-semibold uppercase tracking-[0.28em] text-[#666661]">
-              Portfolio
+              Резюме и портфолио
             </div>
-            <div className="mt-1 text-sm text-[#555551]">Имя Фамилия</div>
+            <div className="mt-1 text-sm text-[#555551]">Дмитрий Золотов</div>
           </div>
           <div className="hidden gap-3 md:flex">
             <a href="#about" className="rounded-full border border-[#8a8a84] bg-[#ecece7] px-4 py-2 text-sm text-[#353531] transition duration-300 hover:-translate-y-0.5 hover:bg-white/50 hover:shadow-md">
@@ -78,27 +78,27 @@ export default function ResumePortfolioSite() {
             <div className="absolute inset-x-0 top-0 h-20 bg-[linear-gradient(90deg,_rgba(255,255,255,0.45),_transparent)]" />
             <div className="relative">
               <div className="mb-5 inline-flex rounded-full border border-[#9a9a93] bg-white/45 px-4 py-2 text-[12px] font-medium uppercase tracking-[0.18em] text-[#5a5a55]">
-                Резюме / О себе
+                Обо мне
               </div>
               <h1 className="max-w-3xl text-4xl font-semibold leading-[1.05] tracking-[-0.03em] text-[#232320] md:text-5xl">
-                Имя Фамилия
+                Я – Дмитрий Золотов
               </h1>
               <p className="mt-4 max-w-2xl text-[17px] leading-8 text-[#4a4a46]">
-                Коротко о себе: чем занимаешься, на чем специализируешься и какую ценность даешь. Здесь может быть спокойный, уверенный текст без перегруза, как в хорошем персональном портфолио.
+                Крутой спец, че
               </p>
 
               <div className="mt-7 grid gap-3 md:grid-cols-3">
                 <div className="rounded-2xl border border-[#575752] bg-white/35 p-4 shadow-[inset_0_1px_0_rgba(255,255,255,0.55)] transition duration-300 hover:-translate-y-1 hover:bg-white/50">
                   <div className="text-xs uppercase tracking-[0.16em] text-[#73736d]">Специализация</div>
-                  <div className="mt-2 text-sm font-medium text-[#2c2c29]">Дизайнер / маркетолог / менеджер</div>
+                  <div className="mt-2 text-sm font-medium text-[#2c2c29]">Редактор / Копирайтер / Технический писатель</div>
                 </div>
                 <div className="rounded-2xl border border-[#575752] bg-white/35 p-4 shadow-[inset_0_1px_0_rgba(255,255,255,0.55)] transition duration-300 hover:-translate-y-1 hover:bg-white/50">
                   <div className="text-xs uppercase tracking-[0.16em] text-[#73736d]">Город</div>
-                  <div className="mt-2 text-sm font-medium text-[#2c2c29]">Твой город</div>
+                  <div className="mt-2 text-sm font-medium text-[#2c2c29]">Москва</div>
                 </div>
                 <div className="rounded-2xl border border-[#575752] bg-white/35 p-4 shadow-[inset_0_1px_0_rgba(255,255,255,0.55)] transition duration-300 hover:-translate-y-1 hover:bg-white/50">
                   <div className="text-xs uppercase tracking-[0.16em] text-[#73736d]">Контакты</div>
-                  <div className="mt-2 text-sm font-medium text-[#2c2c29]">email / Telegram / телефон</div>
+                  <div className="mt-2 text-sm font-medium text-[#2c2c29]">dzreveille@gmail.com / TG: @isaidpluh / +7 (968) 086-92-02</div>
                 </div>
               </div>
             </div>
