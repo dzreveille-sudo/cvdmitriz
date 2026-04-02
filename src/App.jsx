@@ -22,10 +22,88 @@ export default function ResumePortfolioSite() {
     },
   ];
 
-  const portfolioItems = new Array(6).fill(0).map((_, i) => ({
-    title: `Проект / кейс 0${i + 1}`,
-    description: "Краткое описание проекта, задачи и результата.",
-  }));
+  const portfolioItems = [
+  {
+    title: "Контент для mos.ru",
+    description: (
+      <>
+        Для mos.ru готовил статьи на городские темы. Например, {" "}
+        <a
+          href="https://www.mos.ru/news/item/69392073/"
+          target="_blank"
+          rel="noreferrer"
+          className="underline underline-offset-4 hover:decoration-black"
+        >
+         такой материал про район Нагатинский Затон
+        </a>
+        .
+      </>
+    ),
+  },
+
+  {
+    title: "Переводы научных исследований (Covid-19)",
+    description: (
+      <>
+        Работал в Инфоцентре по Covid-19, переводил научные исследования. Примеры:{" "}
+        <a href="https://disk.yandex.ru/i/Vqv6Kp3z07MeiQ" target="_blank" className="underline">один</a>,{" "}
+        <a href="https://disk.yandex.ru/i/QLiPhdvlt9gw-A" target="_blank" className="underline">два</a>,{" "}
+        <a href="https://disk.yandex.ru/i/yZswKpOkhsPJ7w" target="_blank" className="underline">три</a>.
+      </>
+    ),
+  },
+
+  {
+    title: "Печатные проекты Metro",
+    description: (
+      <>
+        Делал еженедельные печатные дополнения: от идеи до текста и работы с дизайнерами.{" "}
+        <a
+          href="https://disk.yandex.ru/d/6uBH_IZBVl2PPA"
+          target="_blank"
+          className="underline"
+        >
+          смотреть
+        </a>
+        .
+      </>
+    ),
+  },
+
+  {
+    title: "Статья про NFL",
+    description: (
+      <>
+        Написал аналитический материал про драфт NFL — стал самым обсуждаемым на канале.{" "}
+        <a
+          href="https://t.me/benchwarmersarehere/415"
+          target="_blank"
+          className="underline"
+        >
+          читать
+        </a>
+        .
+      </>
+    ),
+  },
+
+  {
+    title: "Презентация для МУФ",
+    description: (
+      <>
+        Сделал презентацию 50+ слайдов для Московского урбанистического форума.{" "}
+        <a
+          href="https://disk.yandex.ru/i/QaadHJMvVifUhQ"
+          target="_blank"
+          className="underline"
+        >
+          смотреть
+        </a>
+        .
+      </>
+    ),
+  },
+];
 
   const certificates = [
     {
