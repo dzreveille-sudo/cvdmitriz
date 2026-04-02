@@ -186,7 +186,7 @@ const portfolioItems = [
   rel="noreferrer"
   className="text-lg font-medium text-[#262623] underline-offset-4 hover:underline"
 >
-  {Смотреть →}
+  {"Смотреть →"}
 </a>
                       <div className="mt-1 text-sm leading-7 text-[#4a4a46]">{p.description}</div>
                     </div>
