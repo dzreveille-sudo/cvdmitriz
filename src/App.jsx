@@ -131,7 +131,7 @@ export default function ResumePortfolioSite() {
       <header className="sticky top-0 z-40 border-b border-white/30 bg-[#d8d8d3]/70 backdrop-blur-xl">
         <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
           <div>
-            <div className="text-[11px] font-semibold uppercase tracking-[0.28em] text-[#666661]">
+            <div className="text-[11px] font-semibold uppercase tracking-[0.28em] text-[#1f1f1c]">
               Резюме и портфолио
             </div>
             <div className="mt-1 text-sm text-[#1f1f1c] font-semibold">Дмитрий Золотов</div>
@@ -234,7 +234,7 @@ export default function ResumePortfolioSite() {
               <ul className="mt-6 space-y-4">
                 {portfolioItems.map((p, i) => (
                   <li key={i} className="group flex items-start gap-4 rounded-2xl border border-[#575752] bg-[#ecece7] p-4 shadow-[inset_0_1px_0_rgba(255,255,255,0.5)] transition duration-300 hover:-translate-y-1 hover:bg-white/46 hover:shadow-md">
-                    <div className="mt-1.5 h-2.5 w-2.5 shrink-0 rounded-full bg-[#72726d]" />
+                    <div className="mt-2 h-[6px] w-[18px] shrink-0 rounded-full bg-gradient-to-r from-[#c46a1a] to-[#5a5a55]" />
                     <div>
                       <div className="text-lg font-medium text-[#262623]">{p.title}</div>
                       <div className="mt-1 text-sm leading-7 text-[#4a4a46]">{p.description}</div>
