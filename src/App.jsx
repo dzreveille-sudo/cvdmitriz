@@ -230,7 +230,7 @@ export default function ResumePortfolioSite() {
               </p>
               <ul className="mt-6 space-y-4">
                 {portfolioItems.map((p, i) => (
-                  <li key={i} className="group flex gap-4 rounded-2xl border border-[#575752] bg-[#ecece7] p-4 shadow-[inset_0_1px_0_rgba(255,255,255,0.5)] transition duration-300 hover:-translate-y-1 hover:bg-white/46 hover:shadow-md">
+                  <li key={i} className="group flex items-start gap-4 rounded-2xl border border-[#575752] bg-[#ecece7] p-4 shadow-[inset_0_1px_0_rgba(255,255,255,0.5)] transition duration-300 hover:-translate-y-1 hover:bg-white/46 hover:shadow-md">
                     <div className="mt-1.5 h-2.5 w-2.5 shrink-0 rounded-full bg-[#72726d]" />
                     <div>
                       <div className="text-lg font-medium text-[#262623]">{p.title}</div>
