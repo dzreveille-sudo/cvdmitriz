@@ -46,9 +46,9 @@ export default function ResumePortfolioSite() {
     description: (
       <>
         Во время пандемии я работал специалистом в Инфоцентре по Covid-19, где переводил с английского научные исследования. Примеры:{" "}
-        <a href="https://disk.yandex.ru/i/Vqv6Kp3z07MeiQ" target="_blank" className="font-semibold text-orange-500 underline underline-offset-4 hover:text-orange-600 transition">один</a>,{" "}
-        <a href="https://disk.yandex.ru/i/QLiPhdvlt9gw-A" target="_blank" className="font-semibold text-orange-500 underline underline-offset-4 hover:text-orange-600 transition">два</a>,{" "}
-        <a href="https://disk.yandex.ru/i/yZswKpOkhsPJ7w" target="_blank" className="font-semibold text-orange-500 underline underline-offset-4 hover:text-orange-600 transition">три</a>.
+        <a href="https://disk.yandex.ru/i/Vqv6Kp3z07MeiQ" target="_blank" className="font-semibold text-orange-500 underline underline-offset-4 hover:!text-orange-600 transition">один</a>,{" "}
+        <a href="https://disk.yandex.ru/i/QLiPhdvlt9gw-A" target="_blank" className="font-semibold text-orange-500 underline underline-offset-4 hover:!text-orange-600 transition">два</a>,{" "}
+        <a href="https://disk.yandex.ru/i/yZswKpOkhsPJ7w" target="_blank" className="font-semibold text-orange-500 underline underline-offset-4 hover:!text-orange-600 transition">три</a>.
       </>
     ),
   },
@@ -61,7 +61,7 @@ export default function ResumePortfolioSite() {
         <a
           href="https://disk.yandex.ru/d/6uBH_IZBVl2PPA"
           target="_blank"
-          className="font-semibold text-orange-500 underline underline-offset-4 hover:text-orange-600 transition"
+          className="font-semibold text-orange-500 underline underline-offset-4 hover:!text-orange-600 transition"
         >
           Результат выглядел так
         </a>
@@ -78,7 +78,7 @@ export default function ResumePortfolioSite() {
         <a
           href="https://t.me/benchwarmersarehere/415"
           target="_blank"
-          className="font-semibold text-orange-500 underline underline-offset-4 hover:text-orange-600 transition"
+          className="font-semibold text-orange-500 underline underline-offset-4 hover:!text-orange-600 transition"
         >
           Ссылка в Telegram
         </a>
@@ -95,7 +95,7 @@ export default function ResumePortfolioSite() {
         <a
           href="https://disk.yandex.ru/i/QaadHJMvVifUhQ"
           target="_blank"
-          className="font-semibold text-orange-500 underline underline-offset-4 hover:text-orange-600 transition"
+          className="font-semibold text-orange-500 underline underline-offset-4 hover:!text-orange-600 transition"
         >
           PowerPoint презентацию 
         </a>{" "}
