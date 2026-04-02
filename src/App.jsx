@@ -24,17 +24,17 @@ export default function ResumePortfolioSite() {
 
   const portfolioItems = [
   {
-    title: "Контент для mos.ru",
+    title: "Статьи",
     description: (
       <>
-        Для mos.ru готовил статьи на городские темы. Например, {" "}
+        Для mos.ru готовил материалы на городские темы. Например, {" "}
         <a
           href="https://www.mos.ru/news/item/69392073/"
           target="_blank"
           rel="noreferrer"
           className="font-semibold text-orange-500 underline underline-offset-4 hover:text-orange-600 transition"
         >
-         такой материал 
+         такой текст 
         </a>
         про район Нагатинский Затон.
       </>
@@ -78,7 +78,7 @@ export default function ResumePortfolioSite() {
         <a
           href="https://t.me/benchwarmersarehere/415"
           target="_blank"
-          className="underline"
+          className="font-semibold text-orange-500 underline underline-offset-4 hover:text-orange-600 transition"
         >
           Ссылка в Telegram
         </a>
@@ -95,9 +95,9 @@ export default function ResumePortfolioSite() {
         <a
           href="https://disk.yandex.ru/i/QaadHJMvVifUhQ"
           target="_blank"
-          className="underline"
+          className="font-semibold text-orange-500 underline underline-offset-4 hover:text-orange-600 transition"
         >
-          PowerPoint презентацию
+          PowerPoint презентацию 
         </a>
          на 50+ страниц, посвященную принципам освещения каждой темы МУФа с учетом конкретной аудитории. 
       </>
