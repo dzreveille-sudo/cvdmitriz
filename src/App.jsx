@@ -22,10 +22,35 @@ export default function ResumePortfolioSite() {
     },
   ];
 
-  const portfolioItems = new Array(6).fill(0).map((_, i) => ({
-    title: `Проект / кейс 0${i + 1}`,
-    description: "Краткое описание проекта, задачи и результата.",
-  }));
+const portfolioItems = [
+  {
+    title: "Статьи",
+    description: "Для mos.ru я готовил статьи на разные городские темы. Например, такую про район Нагатинский Затон.",
+    link: "https://www.mos.ru/news/item/69392073/",
+  },
+  {
+    title: "Переводы с английского",
+    description: "Во время пандемии я работал специалистом в Инфоцентре по Covid-19, где переводил с английского языка научные исследования.",
+    link: "https://disk.yandex.ru/i/Vqv6Kp3z07MeiQ",
+    link: "https://disk.yandex.ru/i/QLiPhdvlt9gw-A",
+    link: "https://disk.yandex.ru/i/yZswKpOkhsPJ7w",
+  },
+  {
+    title: "Печатная продукция",
+    description: "Создавал еженедельные печатные дополнения к газете Metro, посвященные жизни округов столицы. От проработки контента до написания текстов и взаимодействия с дизайнерами. Результат – по ссылке ниже.",
+    link: "https://disk.yandex.ru/d/6uBH_IZBVl2PPA",
+  },
+    {
+    title: "Аналитика",
+    description: "Для блога про американский футбол написал материал о недостатках в методиках драфта игроков у профессиональных команд NFL. Эта статья до сих пор держит первое место по обсуждаемости на канале.",
+    link: "https://t.me/benchwarmersarehere/415",
+  },
+  {
+    title: "Презентации",
+    description: "Для Московского урбанистического форума готовил PowerPoint презентацию на 50+ страниц, посвященную принципам освещения каждой темы МУФа с учетом конкретной аудитории.",
+    link: "https://disk.yandex.ru/i/QaadHJMvVifUhQ",
+  },
+];
 
   const certificates = [
     {
