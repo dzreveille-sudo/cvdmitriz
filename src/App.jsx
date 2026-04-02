@@ -127,7 +127,7 @@ export default function ResumePortfolioSite() {
 ];
 
   return (
-    <div className="min-h-screen bg-[#c6c6c1] bg-[radial-gradient(circle_at_top_left,_rgba(255,255,255,0.25),_transparent_40%),radial-gradient(circle_at_bottom_right,_rgba(255,140,0,0.12),_transparent_40%),linear-gradient(180deg,_#d2d2cd_0%,_#c2c2bd_50%,_#b8b8b2_100%)] text-[#2a2a27]">
+    <div className="min-h-screen bg-[#d4d4cf] bg-[radial-gradient(circle_at_top_left,_rgba(255,255,255,0.35),_transparent_38%),radial-gradient(circle_at_bottom_right,_rgba(255,255,255,0.14),_transparent_34%),linear-gradient(180deg,_#dbdbd6_0%,_#ccccc6_48%,_#c5c5bf_100%)] text-[#2a2a27]">
       <header className="sticky top-0 z-40 border-b border-white/30 bg-[#d8d8d3]/70 backdrop-blur-xl">
         <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
           <div>
