@@ -32,7 +32,7 @@ export default function ResumePortfolioSite() {
           href="https://www.mos.ru/news/item/69392073/"
           target="_blank"
           rel="noreferrer"
-          className="font-semibold text-orange-500 after:absolute after:left-0 after:bottom-0 after:h-[1px] after:w-full after:bg-orange-500 after:opacity-40 after:transition hover:after:opacity-100"
+          className="font-semibold text-orange-500 underline underline-offset-4 hover:!text-orange-600 transition"
         >
          такой текст 
         </a>{" "}
