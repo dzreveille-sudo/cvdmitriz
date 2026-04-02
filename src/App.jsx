@@ -6,7 +6,7 @@ export default function ResumePortfolioSite() {
       period: "2020 — 2026",
       role: "Специалист по коммуникации",
       company: "Мэрия Москвы",
-      description: "Занимался продвижением проектов мэрии Москвы — от открытия новых станций метро до запуска цифровых сервисов. Готовил тезисы для органов власти, пресс-релизы, статьи для СМИ, посты для соцсетей, тексты для медиаэкранов. Делал выжимки с Reddit и X, переводы с английского, подборки контента. Курировал освещение программы «Мой район», участвовал в информационном сопровождении выборов, помогал в выпуске окружной газеты.",
+      description: "Занимался продвижением проектов мэрии Москвы. Готовил тезисы, пресс-релизы, статьи для СМИ, посты для соцсетей, тексты для медиаэкранов. Делал выжимки с Reddit и X, переводы с английского, подборки. Курировал освещение программы «Мой район», участвовал в информационном сопровождении выборов, помогал в выпуске окружной газеты.",
     },
     {
       period: "2018 — 2020",
@@ -32,38 +32,38 @@ export default function ResumePortfolioSite() {
           href="https://www.mos.ru/news/item/69392073/"
           target="_blank"
           rel="noreferrer"
-          className="font-semibold !text-orange-500 underline underline-offset-4 hover:!text-orange-600 transition"
+          className="font-semibold text-orange-500 underline underline-offset-4 hover:text-orange-600 transition"
         >
-         такой материал про район Нагатинский Затон
+         такой материал 
         </a>
-        .
+        про район Нагатинский Затон.
       </>
     ),
   },
 
   {
-    title: "Переводы научных исследований (Covid-19)",
+    title: "Переводы с английского",
     description: (
       <>
-        Работал в Инфоцентре по Covid-19, переводил научные исследования. Примеры:{" "}
-        <a href="https://disk.yandex.ru/i/Vqv6Kp3z07MeiQ" target="_blank" className="font-semibold !text-orange-500 underline underline-offset-4 hover:!text-orange-600 transition">один</a>,{" "}
-        <a href="https://disk.yandex.ru/i/QLiPhdvlt9gw-A" target="_blank" className="underline">два</a>,{" "}
-        <a href="https://disk.yandex.ru/i/yZswKpOkhsPJ7w" target="_blank" className="underline">три</a>.
+        Во время пандемии я работал специалистом в Инфоцентре по Covid-19, где переводил с английского научные исследования. Примеры:{" "}
+        <a href="https://disk.yandex.ru/i/Vqv6Kp3z07MeiQ" target="_blank" className="font-semibold text-orange-500 underline underline-offset-4 hover:text-orange-600 transition">один</a>,{" "}
+        <a href="https://disk.yandex.ru/i/QLiPhdvlt9gw-A" target="_blank" className="font-semibold text-orange-500 underline underline-offset-4 hover:text-orange-600 transition">два</a>,{" "}
+        <a href="https://disk.yandex.ru/i/yZswKpOkhsPJ7w" target="_blank" className="font-semibold text-orange-500 underline underline-offset-4 hover:text-orange-600 transition">три</a>.
       </>
     ),
   },
 
   {
-    title: "Печатные проекты Metro",
+    title: "Печатная продукция",
     description: (
       <>
-        Делал еженедельные печатные дополнения: от идеи до текста и работы с дизайнерами.{" "}
+        Создавал еженедельные печатные дополнения к газете Metro о жизни округов столицы: от проработки контента до написания текстов и взаимодействия с дизайнерами. {" "}
         <a
           href="https://disk.yandex.ru/d/6uBH_IZBVl2PPA"
           target="_blank"
-          className="underline"
+          className="font-semibold text-orange-500 underline underline-offset-4 hover:text-orange-600 transition"
         >
-          смотреть
+          Результат выглядел так
         </a>
         .
       </>
@@ -71,16 +71,16 @@ export default function ResumePortfolioSite() {
   },
 
   {
-    title: "Статья про NFL",
+    title: "Аналитика",
     description: (
       <>
-        Написал аналитический материал про драфт NFL — стал самым обсуждаемым на канале.{" "}
+        Для блога про американский футбол написал материал о недостатках в методиках драфта игроков у профессиональных команд NFL. Эта статья до сих пор держит первое место по обсуждаемости на канале.{" "}
         <a
           href="https://t.me/benchwarmersarehere/415"
           target="_blank"
           className="underline"
         >
-          читать
+          Ссылка в Telegram
         </a>
         .
       </>
@@ -88,18 +88,18 @@ export default function ResumePortfolioSite() {
   },
 
   {
-    title: "Презентация для МУФ",
+    title: "Презентации",
     description: (
       <>
-        Сделал презентацию 50+ слайдов для Московского урбанистического форума.{" "}
+        Для Московского урбанистического форума готовил {" "}
         <a
           href="https://disk.yandex.ru/i/QaadHJMvVifUhQ"
           target="_blank"
           className="underline"
         >
-          смотреть
+          PowerPoint презентацию
         </a>
-        .
+         на 50+ страниц, посвященную принципам освещения каждой темы МУФа с учетом конкретной аудитории. 
       </>
     ),
   },
