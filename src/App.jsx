@@ -35,7 +35,7 @@ export default function ResumePortfolioSite() {
           className="font-semibold text-orange-500 underline underline-offset-4 hover:text-orange-600 transition"
         >
          такой текст 
-        </a>
+        </a>{" "}
         про район Нагатинский Затон.
       </>
     ),
@@ -98,7 +98,7 @@ export default function ResumePortfolioSite() {
           className="font-semibold text-orange-500 underline underline-offset-4 hover:text-orange-600 transition"
         >
           PowerPoint презентацию 
-        </a>
+        </a>{" "}
          на 50+ страниц, посвященную принципам освещения каждой темы МУФа с учетом конкретной аудитории. 
       </>
     ),
