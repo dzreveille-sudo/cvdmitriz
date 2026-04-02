@@ -32,7 +32,7 @@ export default function ResumePortfolioSite() {
           href="https://www.mos.ru/news/item/69392073/"
           target="_blank"
           rel="noreferrer"
-          className="underline underline-offset-4 hover:decoration-black"
+          className="font-semibold text-orange-500 underline underline-offset-4 hover:text-orange-600 transition"
         >
          такой материал про район Нагатинский Затон
         </a>
@@ -46,7 +46,7 @@ export default function ResumePortfolioSite() {
     description: (
       <>
         Работал в Инфоцентре по Covid-19, переводил научные исследования. Примеры:{" "}
-        <a href="https://disk.yandex.ru/i/Vqv6Kp3z07MeiQ" target="_blank" className="underline">один</a>,{" "}
+        <a href="https://disk.yandex.ru/i/Vqv6Kp3z07MeiQ" target="_blank" className="font-semibold text-orange-500 underline underline-offset-4 hover:text-orange-600 transition">один</a>,{" "}
         <a href="https://disk.yandex.ru/i/QLiPhdvlt9gw-A" target="_blank" className="underline">два</a>,{" "}
         <a href="https://disk.yandex.ru/i/yZswKpOkhsPJ7w" target="_blank" className="underline">три</a>.
       </>
