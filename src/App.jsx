@@ -24,31 +24,122 @@ export default function ResumePortfolioSite() {
 
 const portfolioItems = [
   {
-    title: "Статьи",
-    description: "Для mos.ru я готовил статьи на разные городские темы. Например, такую про район Нагатинский Затон.",
-    link: "https://www.mos.ru/news/item/69392073/",
+    title: "Контент для mos.ru",
+    description: (
+      <>
+        Готовил статьи на городские темы для портала{" "}
+        <a
+          href="https://www.mos.ru"
+          target="_blank"
+          rel="noreferrer"
+          className="underline underline-offset-4 decoration-[#7a7a74] hover:decoration-black transition"
+        >
+          mos.ru
+        </a>
+        . В том числе писал материал про район Нагатинский Затон —{" "}
+        <a
+          href="https://www.mos.ru/news/item/69392073/"
+          target="_blank"
+          rel="noreferrer"
+          className="underline underline-offset-4 decoration-[#7a7a74] hover:decoration-black transition"
+        >
+          читать статью
+        </a>
+        .
+      </>
+    ),
   },
   {
-    title: "Переводы с английского",
-    description: "Во время пандемии я работал специалистом в Инфоцентре по Covid-19, где переводил с английского языка научные исследования.",
-    link: "https://disk.yandex.ru/i/Vqv6Kp3z07MeiQ",
-    link: "https://disk.yandex.ru/i/QLiPhdvlt9gw-A",
-    link: "https://disk.yandex.ru/i/yZswKpOkhsPJ7w",
+    title: "Переводы научных исследований (Covid-19)",
+    description: (
+      <>
+        Работал в Инфоцентре по Covid-19 во время пандемии: переводил с английского
+        научные исследования и адаптировал их для широкой аудитории. Примеры работ:{" "}
+        <a
+          href="https://disk.yandex.ru/i/Vqv6Kp3z07MeiQ"
+          target="_blank"
+          rel="noreferrer"
+          className="underline underline-offset-4 decoration-[#7a7a74] hover:decoration-black transition"
+        >
+          один
+        </a>
+        ,{" "}
+        <a
+          href="https://disk.yandex.ru/i/QLiPhdvlt9gw-A"
+          target="_blank"
+          rel="noreferrer"
+          className="underline underline-offset-4 decoration-[#7a7a74] hover:decoration-black transition"
+        >
+          два
+        </a>
+        ,{" "}
+        <a
+          href="https://disk.yandex.ru/i/yZswKpOkhsPJ7w"
+          target="_blank"
+          rel="noreferrer"
+          className="underline underline-offset-4 decoration-[#7a7a74] hover:decoration-black transition"
+        >
+          три
+        </a>
+        .
+      </>
+    ),
   },
   {
-    title: "Печатная продукция",
-    description: "Создавал еженедельные печатные дополнения к газете Metro, посвященные жизни округов столицы. От проработки контента до написания текстов и взаимодействия с дизайнерами. Результат – по ссылке ниже.",
-    link: "https://disk.yandex.ru/d/6uBH_IZBVl2PPA",
-  },
-    {
-    title: "Аналитика",
-    description: "Для блога про американский футбол написал материал о недостатках в методиках драфта игроков у профессиональных команд NFL. Эта статья до сих пор держит первое место по обсуждаемости на канале.",
-    link: "https://t.me/benchwarmersarehere/415",
+    title: "Печатные спецпроекты для Metro",
+    description: (
+      <>
+        Создавал еженедельные печатные дополнения к газете Metro: от разработки
+        концепции и структуры до написания текстов и взаимодействия с дизайнерами.
+        Итоговые материалы можно посмотреть{" "}
+        <a
+          href="https://disk.yandex.ru/d/6uBH_IZBVl2PPA"
+          target="_blank"
+          rel="noreferrer"
+          className="underline underline-offset-4 decoration-[#7a7a74] hover:decoration-black transition"
+        >
+          здесь
+        </a>
+        .
+      </>
+    ),
   },
   {
-    title: "Презентации",
-    description: "Для Московского урбанистического форума готовил PowerPoint презентацию на 50+ страниц, посвященную принципам освещения каждой темы МУФа с учетом конкретной аудитории.",
-    link: "https://disk.yandex.ru/i/QaadHJMvVifUhQ",
+    title: "Аналитическая статья про NFL",
+    description: (
+      <>
+        Написал материал о недостатках методик драфта игроков в командах NFL для
+        профильного блога. Статья стала самой обсуждаемой на канале —{" "}
+        <a
+          href="https://t.me/benchwarmersarehere/415"
+          target="_blank"
+          rel="noreferrer"
+          className="underline underline-offset-4 decoration-[#7a7a74] hover:decoration-black transition"
+        >
+          открыть публикацию
+        </a>
+        .
+      </>
+    ),
+  },
+  {
+    title: "Презентация для Московского урбанистического форума",
+    description: (
+      <>
+        Подготовил презентацию (50+ слайдов) для Московского урбанистического
+        форума с проработкой структуры, логики подачи и адаптацией под аудиторию.
+        Пример работы —{" "}
+        <a
+          href="https://disk.yandex.ru/i/QaadHJMvVifUhQ"
+          target="_blank"
+          rel="noreferrer"
+          className="underline underline-offset-4 decoration-[#7a7a74] hover:decoration-black transition"
+        >
+          смотреть
+        </a>
+        .
+      </>
+    ),
   },
 ];
 
