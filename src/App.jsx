@@ -1,4 +1,10 @@
 import avatarImg from "./assets/avatar.png";
+import cert1 from "./assets/cert1.jpg";
+import cert2 from "./assets/cert2.jpg";
+import cert3 from "./assets/cert3.png";
+
+
+
 
 export default function ResumePortfolioSite() {
   const experiences = [
@@ -106,22 +112,19 @@ export default function ResumePortfolioSite() {
 ];
 
   const certificates = [
-    {
-      title: "Благодарность 01",
-      image:
-        "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80",
-    },
-    {
-      title: "Благодарность 02",
-      image:
-        "https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=1200&q=80",
-    },
-    {
-      title: "Сертификат",
-      image:
-        "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80",
-    },
-  ];
+  {
+    title: "Почетная грамота от Департамента информационных технологий Москвы",
+    image: cert1,
+  },
+  {
+    title: "Благодарность мэра Москвы",
+    image: cert2,
+  },
+  {
+    title: "EF SET Certificate по английскому языку. Уровень C2",
+    image: cert3,
+  },
+];
 
   return (
     <div className="min-h-screen bg-[#d4d4cf] bg-[radial-gradient(circle_at_top_left,_rgba(255,255,255,0.35),_transparent_38%),radial-gradient(circle_at_bottom_right,_rgba(255,255,255,0.14),_transparent_34%),linear-gradient(180deg,_#dbdbd6_0%,_#ccccc6_48%,_#c5c5bf_100%)] text-[#2a2a27]">
@@ -201,7 +204,7 @@ export default function ResumePortfolioSite() {
               <div className="mb-4 inline-flex rounded-full border border-[#9a9a93] bg-white/45 px-4 py-2 text-[12px] font-medium uppercase tracking-[0.18em] text-[#5a5a55]">
                 Опыт работы
               </div>
-              <h2 className="text-3xl font-semibold tracking-[-0.02em] text-[#232320]">Профессиональный путь</h2>
+              
               <div className="mt-5 space-y-3">
                 {experiences.map((e, i) => (
                   <div key={i} className="rounded-2xl border border-[#575752] bg-white/35 p-4 shadow-[inset_0_1px_0_rgba(255,255,255,0.52)] transition duration-300 hover:-translate-y-1 hover:bg-white/48 hover:shadow-md">
@@ -224,7 +227,7 @@ export default function ResumePortfolioSite() {
               <div className="mb-4 inline-flex rounded-full border border-[#9a9a93] bg-white/45 px-4 py-2 text-[12px] font-medium uppercase tracking-[0.18em] text-[#5a5a55]">
                 Портфолио
               </div>
-              <h2 className="text-3xl font-semibold tracking-[-0.02em] text-[#232320]">Проекты и кейсы</h2>
+              
               <p className="mt-3 max-w-3xl text-[15px] leading-7 text-[#4a4a46]">
                 
               </p>
@@ -250,7 +253,7 @@ export default function ResumePortfolioSite() {
               <div className="mb-4 inline-flex rounded-full border border-[#9a9a93] bg-white/45 px-4 py-2 text-[12px] font-medium uppercase tracking-[0.18em] text-[#5a5a55]">
                 Сертификаты и благодарности
               </div>
-              <h2 className="text-3xl font-semibold tracking-[-0.02em] text-[#232320]">Подтверждение опыта</h2>
+              
               <div className="mt-6 grid gap-4 md:grid-cols-3">
                 {certificates.map((c, i) => (
                   <div key={i} className="group rounded-[1.5rem] border border-[#575752] bg-[#ecece7] p-3 shadow-[inset_0_1px_0_rgba(255,255,255,0.5)] transition duration-300 hover:-translate-y-1 hover:bg-white/46 hover:shadow-lg">
