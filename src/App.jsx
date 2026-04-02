@@ -32,7 +32,7 @@ export default function ResumePortfolioSite() {
           href="https://www.mos.ru/news/item/69392073/"
           target="_blank"
           rel="noreferrer"
-          className="font-semibold text-orange-400 underline underline-offset-4 hover:text-orange-500 transition"
+          className="underline underline-offset-4 hover:decoration-black"
         >
          такой материал про район Нагатинский Затон
         </a>
@@ -182,16 +182,14 @@ export default function ResumePortfolioSite() {
             </div>
           </div>
 
-          <div className="relative flex items-center justify-end">
-  <div className="group relative ...">
-
-    <div className="absolute right-[-50px] top-1/2 hidden h-[140%] w-[120px] -translate-y-1/2 rounded-[60px] bg-gradient-to-b from-orange-400/70 via-orange-300/40 to-transparent blur-sm lg:block" />
-
-    <img
-      src={avatarImg}
-      alt="avatar"
-      className="relative h-[260px] w-[260px] rounded-full object-cover md:h-[280px] md:w-[280px]"
-    />
+          <div className="flex w-full items-center justify-end">
+            <div className="group relative ml-auto rounded-full border border-[#575752] bg-[linear-gradient(180deg,_#5f5f59_0%,_#464640_100%)] p-[10px] shadow-[0_18px_40px_rgba(0,0,0,0.16)] transition duration-300 hover:scale-[1.02] hover:shadow-[0_24px_55px_rgba(0,0,0,0.2)]">
+              <div className="absolute inset-0 rounded-full bg-[radial-gradient(circle_at_30%_25%,_rgba(255,255,255,0.25),_transparent_35%)]" />
+              <img
+                src={avatarImg}
+                alt="avatar"
+                className="relative h-[260px] w-[260px] rounded-full object-cover md:h-[280px] md:w-[280px]"
+              />
             </div>
           </div>
         </section>
