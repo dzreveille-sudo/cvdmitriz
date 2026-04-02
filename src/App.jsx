@@ -22,126 +22,10 @@ export default function ResumePortfolioSite() {
     },
   ];
 
-const portfolioItems = [
-  {
-    title: "Контент для mos.ru",
-    description: (
-      <>
-        Готовил статьи на городские темы для портала{" "}
-        <a
-          href="https://www.mos.ru"
-          target="_blank"
-          rel="noreferrer"
-          className="underline underline-offset-4 decoration-[#7a7a74] hover:decoration-black transition"
-        >
-          mos.ru
-        </a>
-        . В том числе писал материал про район Нагатинский Затон —{" "}
-        <a
-          href="https://www.mos.ru/news/item/69392073/"
-          target="_blank"
-          rel="noreferrer"
-          className="underline underline-offset-4 decoration-[#7a7a74] hover:decoration-black transition"
-        >
-          читать статью
-        </a>
-        .
-      </>
-    ),
-  },
-  {
-    title: "Переводы научных исследований (Covid-19)",
-    description: (
-      <>
-        Работал в Инфоцентре по Covid-19 во время пандемии: переводил с английского
-        научные исследования и адаптировал их для широкой аудитории. Примеры работ:{" "}
-        <a
-          href="https://disk.yandex.ru/i/Vqv6Kp3z07MeiQ"
-          target="_blank"
-          rel="noreferrer"
-          className="underline underline-offset-4 decoration-[#7a7a74] hover:decoration-black transition"
-        >
-          один
-        </a>
-        ,{" "}
-        <a
-          href="https://disk.yandex.ru/i/QLiPhdvlt9gw-A"
-          target="_blank"
-          rel="noreferrer"
-          className="underline underline-offset-4 decoration-[#7a7a74] hover:decoration-black transition"
-        >
-          два
-        </a>
-        ,{" "}
-        <a
-          href="https://disk.yandex.ru/i/yZswKpOkhsPJ7w"
-          target="_blank"
-          rel="noreferrer"
-          className="underline underline-offset-4 decoration-[#7a7a74] hover:decoration-black transition"
-        >
-          три
-        </a>
-        .
-      </>
-    ),
-  },
-  {
-    title: "Печатные спецпроекты для Metro",
-    description: (
-      <>
-        Создавал еженедельные печатные дополнения к газете Metro: от разработки
-        концепции и структуры до написания текстов и взаимодействия с дизайнерами.
-        Итоговые материалы можно посмотреть{" "}
-        <a
-          href="https://disk.yandex.ru/d/6uBH_IZBVl2PPA"
-          target="_blank"
-          rel="noreferrer"
-          className="underline underline-offset-4 decoration-[#7a7a74] hover:decoration-black transition"
-        >
-          здесь
-        </a>
-        .
-      </>
-    ),
-  },
-  {
-    title: "Аналитическая статья про NFL",
-    description: (
-      <>
-        Написал материал о недостатках методик драфта игроков в командах NFL для
-        профильного блога. Статья стала самой обсуждаемой на канале —{" "}
-        <a
-          href="https://t.me/benchwarmersarehere/415"
-          target="_blank"
-          rel="noreferrer"
-          className="underline underline-offset-4 decoration-[#7a7a74] hover:decoration-black transition"
-        >
-          открыть публикацию
-        </a>
-        .
-      </>
-    ),
-  },
-  {
-    title: "Презентация для Московского урбанистического форума",
-    description: (
-      <>
-        Подготовил презентацию (50+ слайдов) для Московского урбанистического
-        форума с проработкой структуры, логики подачи и адаптацией под аудиторию.
-        Пример работы —{" "}
-        <a
-          href="https://disk.yandex.ru/i/QaadHJMvVifUhQ"
-          target="_blank"
-          rel="noreferrer"
-          className="underline underline-offset-4 decoration-[#7a7a74] hover:decoration-black transition"
-        >
-          смотреть
-        </a>
-        .
-      </>
-    ),
-  },
-];
+  const portfolioItems = new Array(6).fill(0).map((_, i) => ({
+    title: `Проект / кейс 0${i + 1}`,
+    description: "Краткое описание проекта, задачи и результата.",
+  }));
 
   const certificates = [
     {
@@ -271,14 +155,7 @@ const portfolioItems = [
                   <li key={i} className="group flex gap-4 rounded-2xl border border-[#575752] bg-[#ecece7] p-4 shadow-[inset_0_1px_0_rgba(255,255,255,0.5)] transition duration-300 hover:-translate-y-1 hover:bg-white/46 hover:shadow-md">
                     <div className="mt-2 h-2.5 w-2.5 rounded-full bg-[#72726d] transition duration-300 group-hover:scale-125" />
                     <div>
-                      <a
-  href={p.link}
-  target="_blank"
-  rel="noreferrer"
-  className="text-lg font-medium text-[#262623] underline-offset-4 hover:underline"
->
-  {"Смотреть →"}
-</a>
+                      <div className="text-lg font-medium text-[#262623]">{p.title}</div>
                       <div className="mt-1 text-sm leading-7 text-[#4a4a46]">{p.description}</div>
                     </div>
                   </li>
