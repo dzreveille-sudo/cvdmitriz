@@ -1,7 +1,7 @@
 import avatarImg from "./assets/avatar.png";
 import cert1 from "./assets/cert1.jpg";
 import cert2 from "./assets/cert2.jpg";
-import cert3 from "./assets/cert3.png";
+import cert3 from "./assets/cert3.PNG";
 
 
 
