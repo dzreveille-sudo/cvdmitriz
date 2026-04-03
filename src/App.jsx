@@ -144,7 +144,7 @@ useEffect(() => {
 ];
 
   return (
-    <div className="min-h-screen bg-[#b8b8b0] text-[#2a2a27]">
+    <div className="min-h-screen bg-[#e7e7e2] bg-[linear-gradient(180deg,_#ecece7_0%,_#e2e2dc_100%)] text-[#2a2a27]">
       <header className="sticky top-0 z-40 border-b border-white/30 bg-[#d8d8d3]/70 backdrop-blur-xl">
         <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
           <div>
