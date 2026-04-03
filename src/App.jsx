@@ -146,35 +146,39 @@ useEffect(() => {
   return (
     <div className="min-h-screen bg-[#e7e7e2] bg-[linear-gradient(180deg,_#ecece7_0%,_#e2e2dc_100%)] text-[#2a2a27]">
       <header className="sticky top-0 z-40 border-b border-white/30 bg-[#d8d8d3]/70 backdrop-blur-xl">
-        <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
-          <div>
-            <div className="text-[11px] font-semibold uppercase tracking-[0.28em] text-[#1f1f1c]">
-              Резюме и портфолио
-            </div>
-            <div className="mt-1 text-sm text-[#1f1f1c] font-semibold">Дмитрий Золотов</div>
-          </div>
-          <div className="hidden gap-3 md:flex">
-            <a href="#about" className="rounded-full border border-[#8a8a84] bg-[#ecece7] px-4 py-2 text-sm text-[#353531] transition duration-300 hover:-translate-y-0.5 hover:bg-white/50 hover:shadow-md">
-              Обо мне
-            </a>
-            <a href="#experience" className="rounded-full border border-[#8a8a84] bg-[#ecece7] px-4 py-2 text-sm text-[#353531] transition duration-300 hover:-translate-y-0.5 hover:bg-white/50 hover:shadow-md">
-              Опыт
-            </a>
-            <a href="#portfolio" className="rounded-full border border-[#8a8a84] bg-[#ecece7] px-4 py-2 text-sm text-[#353531] transition duration-300 hover:-translate-y-0.5 hover:bg-white/50 hover:shadow-md">
-              Проекты
-            </a>
-            <a href="#certificates" className="rounded-full border border-[#8a8a84] bg-[#ecece7] px-4 py-2 text-sm text-[#353531] transition duration-300 hover:-translate-y-0.5 hover:bg-white/50 hover:shadow-md">
-              Сертификаты
-            </a>
-          </div>
-          <a
-        href="/resume.docx"
-        download="Дмитрий_Золотов_Резюме.docx"
-        className="rounded-full border border-orange-500 bg-orange-500 px-4 py-2 text-sm text-white transition duration-300 hover:-translate-y-0.5 hover:bg-orange-600 hover:shadow-md"
-      >
-        Скачать резюме в формате .docx
+       <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
+  <div>
+    <div className="text-[11px] font-semibold uppercase tracking-[0.28em] text-[#1f1f1c]">
+      Резюме и портфолио
+    </div>
+    <div className="mt-1 text-sm text-[#1f1f1c] font-semibold">Дмитрий Золотов</div>
+  </div>
+
+  <div className="flex items-center gap-3">
+    <div className="hidden gap-3 md:flex">
+      <a href="#about" className="rounded-full border border-[#8a8a84] bg-[#ecece7] px-4 py-2 text-sm text-[#353531] transition duration-300 hover:-translate-y-0.5 hover:bg-white/50 hover:shadow-md">
+        Обо мне
       </a>
-        </nav>
+      <a href="#experience" className="rounded-full border border-[#8a8a84] bg-[#ecece7] px-4 py-2 text-sm text-[#353531] transition duration-300 hover:-translate-y-0.5 hover:bg-white/50 hover:shadow-md">
+        Опыт
+      </a>
+      <a href="#portfolio" className="rounded-full border border-[#8a8a84] bg-[#ecece7] px-4 py-2 text-sm text-[#353531] transition duration-300 hover:-translate-y-0.5 hover:bg-white/50 hover:shadow-md">
+        Проекты
+      </a>
+      <a href="#certificates" className="rounded-full border border-[#8a8a84] bg-[#ecece7] px-4 py-2 text-sm text-[#353531] transition duration-300 hover:-translate-y-0.5 hover:bg-white/50 hover:shadow-md">
+        Сертификаты
+      </a>
+    </div>
+
+    <a
+      href="/resume.docx"
+      download="Дмитрий_Золотов_Резюме.docx"
+      className="rounded-full border border-orange-500 bg-orange-500 px-4 py-2 text-sm text-white transition duration-300 hover:-translate-y-0.5 hover:bg-orange-600 hover:shadow-md"
+    >
+      Скачать резюме в формате .docx
+    </a>
+  </div>
+</nav>
       </header>
 
       <main>
