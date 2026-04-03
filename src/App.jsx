@@ -247,7 +247,7 @@ useEffect(() => {
 
 <ul className="mt-2 space-y-4">
                 {portfolioItems.map((p, i) => (
-                  <li key={i} className="group flex items-start gap-3 rounded-2xl border border-[#575752] bg-[#ecece7] p-4 shadow-[inset_0_1px_0_rgba(255,255,255,0.5)] transition duration-300 hover:-translate-y-1 hover:bg-white/46 hover:shadow-md">
+                  <li key={i} className="group flex items-start gap-3 rounded-2xl border border-[#575752] bg-white/35 p-4 shadow-[inset_0_1px_0_rgba(255,255,255,0.52)] transition duration-300 hover:-translate-y-1 hover:bg-white/48 hover:shadow-md">
   <div className="mt-[0.42rem] h-[7px] w-[7px] shrink-0 rounded-[2px] bg-[#1f1f1c]" />
   <div>
     <div className="text-lg font-medium leading-6 text-[#262623]">{p.title}</div>
