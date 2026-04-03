@@ -3,7 +3,7 @@ import avatarImg from "./assets/avatar.png";
 import cert1 from "./assets/cert1.jpg";
 import cert2 from "./assets/cert2.jpg";
 import cert3 from "./assets/cert3.PNG";
-
+import resumeFile from "./assets/resume.docx";
 
 
 
@@ -171,7 +171,7 @@ useEffect(() => {
     </div>
 
    <a
-  href={`${import.meta.env.BASE_URL}resume.docx`}
+  href={resumeFile}
   download="Дмитрий_Золотов_Резюме.docx"
   className="rounded-full border border-orange-500 bg-orange-500 px-4 py-2 text-sm text-white transition duration-300 hover:-translate-y-0.5 hover:bg-orange-600 hover:shadow-md"
 >
