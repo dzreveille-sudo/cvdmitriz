@@ -201,11 +201,11 @@ export default function ResumePortfolioSite() {
           <div className="relative overflow-hidden rounded-[2rem] border border-[#575752] bg-[linear-gradient(180deg,_rgba(255,255,255,0.6),_rgba(230,230,224,0.75))] p-6 shadow-[0_14px_40px_rgba(65,65,55,0.10)] ring-1 ring-black/5 transition duration-300 hover:-translate-y-1 hover:shadow-[0_22px_55px_rgba(65,65,55,0.14)]">
             <div className="absolute inset-x-0 top-0 h-16 bg-[linear-gradient(90deg,_rgba(255,255,255,0.35),_transparent)]" />
             <div className="relative">
-              <div className="mb-4 inline-flex rounded-full border border-[#9a9a93] bg-white/45 px-4 py-2 text-[12px] font-medium uppercase tracking-[0.18em] text-[#5a5a55]">
-                Опыт работы
-              </div>
-              
-              <div className="mt-5 space-y-3">
+              <div className="mb-2 inline-flex rounded-full border border-[#9a9a93] bg-white/45 px-4 py-2 text-[12px] font-medium uppercase tracking-[0.18em] text-[#5a5a55]">
+  Опыт работы
+</div>
+
+<div className="mt-2 space-y-3">
                 {experiences.map((e, i) => (
                   <div key={i} className="rounded-2xl border border-[#575752] bg-white/35 p-4 shadow-[inset_0_1px_0_rgba(255,255,255,0.52)] transition duration-300 hover:-translate-y-1 hover:bg-white/48 hover:shadow-md">
                     <div className="text-xs uppercase tracking-[0.16em] text-[#74746e]">{e.period}</div>
