@@ -155,7 +155,7 @@ export default function ResumePortfolioSite() {
 
       <main>
         <section id="about" className="mx-auto grid max-w-6xl grid-cols-1 items-center gap-6 px-6 py-8 lg:grid-cols-[1.45fr_0.85fr]">
-          <div className="relative overflow-hidden rounded-[2rem] border border-[#575752] bg-[linear-gradient(180deg,_rgba(255,255,255,0.58),_rgba(233,233,228,0.72))] p-7 shadow-[0_14px_40px_rgba(65,65,55,0.10)] ring-1 ring-black/5 transition duration-300 hover:-translate-y-1 hover:shadow-[0_22px_55px_rgba(65,65,55,0.14)] lg:p-8">
+          <div className="relative overflow-hidden rounded-[2rem] border border-[#575752] bg-[linear-gradient(180deg,_rgba(255,255,255,0.58),_rgba(233,233,228,0.72))] p-7 shadow-[0_8px_24px_rgba(65,65,55,0.08)] ring-1 ring-black/5 transition duration-300 hover:-translate-y-1 hover:shadow-[0_12px_30px_rgba(65,65,55,0.10)] lg:p-8">
             <div className="absolute inset-x-0 top-0 h-20 bg-[linear-gradient(90deg,_rgba(255,255,255,0.45),_transparent)]" />
             <div className="relative">
               <div className="mb-5 inline-flex rounded-full border border-[#9a9a93] bg-white/45 px-4 py-2 text-[12px] font-medium uppercase tracking-[0.18em] text-[#5a5a55]">
@@ -186,7 +186,7 @@ export default function ResumePortfolioSite() {
           </div>
 
           <div className="flex w-full items-center justify-end">
-            <div className="group relative ml-auto rounded-full border border-[#575752] bg-[linear-gradient(180deg,_#5f5f59_0%,_#464640_100%)] p-[10px] shadow-[0_18px_40px_rgba(0,0,0,0.16)] transition duration-300 hover:scale-[1.02] hover:shadow-[0_24px_55px_rgba(0,0,0,0.2)]">
+            <div className="group relative ml-auto rounded-full border border-[#575752] bg-[linear-gradient(180deg,_#5f5f59_0%,_#464640_100%)] p-[10px] shadow-[0_8px_24px_rgba(65,65,55,0.08)] transition duration-300 hover:scale-[1.02] hover:shadow-[0_12px_30px_rgba(65,65,55,0.10)]">
               <div className="absolute inset-0 rounded-full bg-[radial-gradient(circle_at_30%_25%,_rgba(255,255,255,0.25),_transparent_35%)]" />
               <img
                 src={avatarImg}
@@ -198,7 +198,7 @@ export default function ResumePortfolioSite() {
         </section>
 
         <section id="experience" className="mx-auto max-w-6xl px-6 pb-6">
-          <div className="relative overflow-hidden rounded-[2rem] border border-[#575752] bg-[linear-gradient(180deg,_rgba(255,255,255,0.6),_rgba(230,230,224,0.75))] p-6 shadow-[0_14px_40px_rgba(65,65,55,0.10)] ring-1 ring-black/5 transition duration-300 hover:-translate-y-1 hover:shadow-[0_22px_55px_rgba(65,65,55,0.14)]">
+          <div className="relative overflow-hidden rounded-[2rem] border border-[#575752] bg-[linear-gradient(180deg,_rgba(255,255,255,0.6),_rgba(230,230,224,0.75))] p-6 shadow-[0_8px_24px_rgba(65,65,55,0.08)] ring-1 ring-black/5 transition duration-300 hover:-translate-y-1 hover:shadow-[0_12px_30px_rgba(65,65,55,0.10)]">
             <div className="absolute inset-x-0 top-0 h-16 bg-[linear-gradient(90deg,_rgba(255,255,255,0.35),_transparent)]" />
             <div className="relative">
               <div className="mb-2 inline-flex rounded-full border border-[#9a9a93] bg-white/45 px-4 py-2 text-[12px] font-medium uppercase tracking-[0.18em] text-[#5a5a55]">
