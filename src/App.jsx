@@ -171,7 +171,7 @@ useEffect(() => {
     </div>
 
     <a
-      href="/resume.docx"
+      href="/public/resume.docx"
       download="Дмитрий_Золотов_Резюме.docx"
       className="rounded-full border border-orange-500 bg-orange-500 px-4 py-2 text-sm text-white transition duration-300 hover:-translate-y-0.5 hover:bg-orange-600 hover:shadow-md"
     >
