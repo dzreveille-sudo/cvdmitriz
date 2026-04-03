@@ -127,7 +127,7 @@ export default function ResumePortfolioSite() {
 ];
 
   return (
-    <div className="min-h-screen bg-[#c6c6bf] text-[#2a2a27]">
+    <div className="min-h-screen bg-[#b8b8b0] text-[#2a2a27]">
       <header className="sticky top-0 z-40 border-b border-white/30 bg-[#d8d8d3]/70 backdrop-blur-xl">
         <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
           <div>
