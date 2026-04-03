@@ -170,13 +170,13 @@ useEffect(() => {
       </a>
     </div>
 
-    <a
-      href="/public/resume.docx"
-      download="Дмитрий_Золотов_Резюме.docx"
-      className="rounded-full border border-orange-500 bg-orange-500 px-4 py-2 text-sm text-white transition duration-300 hover:-translate-y-0.5 hover:bg-orange-600 hover:shadow-md"
-    >
-      Скачать резюме в формате .docx
-    </a>
+   <a
+  href={`${import.meta.env.BASE_URL}resume.docx`}
+  download="Дмитрий_Золотов_Резюме.docx"
+  className="rounded-full border border-orange-500 bg-orange-500 px-4 py-2 text-sm text-white transition duration-300 hover:-translate-y-0.5 hover:bg-orange-600 hover:shadow-md"
+>
+  Скачать резюме в формате .docx
+</a>
   </div>
 </nav>
       </header>
