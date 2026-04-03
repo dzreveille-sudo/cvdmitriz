@@ -153,7 +153,7 @@ useEffect(() => {
             </div>
             <div className="mt-1 text-sm text-[#1f1f1c] font-semibold">Дмитрий Золотов</div>
           </div>
-          <div className="hidden gap-3 md:flex">
+          <div className="flex gap-2 overflow-x-auto md:gap-3">
             <a href="#about" className="rounded-full border border-[#8a8a84] bg-[#ecece7] px-4 py-2 text-sm text-[#353531] transition duration-300 hover:-translate-y-0.5 hover:bg-white/50 hover:shadow-md">
               Обо мне
             </a>
@@ -196,7 +196,7 @@ useEffect(() => {
                 </div>
                 <div className="rounded-2xl border border-[#575752] bg-white/35 p-4 shadow-[inset_0_1px_0_rgba(255,255,255,0.55)] transition duration-300 hover:-translate-y-1 hover:bg-white/50">
                   <div className="text-xs uppercase tracking-[0.16em] text-[#73736d]">Контакты</div>
-                  <div className="mt-2 text-sm font-medium text-[#2c2c29]">dzreveille@gmail.com <br /> TG: @isaidpluh <br /> +7 (968) 086-92-02</div>
+                  <div className="mt-2 text-sm font-medium text-[#2c2c29]">dzreveille@gmail.com <br /> Telegram: @isaidpluh <br /> +7 (968) 086-92-02</div>
                 </div>
               </div>
             </div>
