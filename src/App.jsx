@@ -153,7 +153,7 @@ useEffect(() => {
             </div>
             <div className="mt-1 text-sm text-[#1f1f1c] font-semibold">Дмитрий Золотов</div>
           </div>
-          <div className="flex gap-2 overflow-x-auto md:gap-3">
+          <div className="hidden gap-3 md:flex">
             <a href="#about" className="rounded-full border border-[#8a8a84] bg-[#ecece7] px-4 py-2 text-sm text-[#353531] transition duration-300 hover:-translate-y-0.5 hover:bg-white/50 hover:shadow-md">
               Обо мне
             </a>
