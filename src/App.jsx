@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import avatarImg from "./assets/avatar.png";
 import cert1 from "./assets/cert1.jpg";
 import cert2 from "./assets/cert2.jpg";
@@ -7,6 +8,22 @@ import cert3 from "./assets/cert3.PNG";
 
 
 export default function ResumePortfolioSite() {
+  const [selectedImage, setSelectedImage] = useState(null);
+
+useEffect(() => {
+  const handleKeyDown = (e) => {
+    if (e.key === "Escape") {
+      setSelectedImage(null);
+    }
+  };
+
+  window.addEventListener("keydown", handleKeyDown);
+
+  return () => {
+    window.removeEventListener("keydown", handleKeyDown);
+  };
+}, []);
+  
   const experiences = [
     {
       period: "2020 — 2026",
@@ -253,22 +270,46 @@ export default function ResumePortfolioSite() {
               
               <div className="mt-6 grid gap-4 md:grid-cols-3">
                 {certificates.map((c, i) => (
-                  <div key={i} className="group rounded-[1.5rem] border border-[#575752] bg-[#ecece7] p-3 shadow-[inset_0_1px_0_rgba(255,255,255,0.5)] transition duration-300 hover:-translate-y-1 hover:bg-white/46 hover:shadow-lg">
-                    <div className="overflow-hidden rounded-[1rem] border border-[#575752] bg-[#ecece7]">
-                      <img
-                        src={c.image}
-                        alt={c.title}
-                        className="h-[220px] w-full object-cover transition duration-500 group-hover:scale-[1.04]"
-                      />
-                    </div>
-                    <div className="px-1 pb-1 pt-3 text-sm font-medium text-[#2d2d2a]">{c.title}</div>
-                  </div>
-                ))}
+  <div
+    key={i}
+    onClick={() => setSelectedImage(c)}
+    className="cursor-zoom-in rounded-[1.5rem] border border-[#575752] bg-[#ecece7] p-3 transition duration-300 hover:-translate-y-[2px] hover:bg-white/46"
+  >
+    <div className="overflow-hidden rounded-[1rem] border border-[#575752] bg-[#ecece7]">
+      <img
+        src={c.image}
+        alt={c.title}
+        className="h-[220px] w-full object-cover transition duration-500 hover:scale-[1.03]"
+      />
+    </div>
+    <div className="px-1 pb-1 pt-3 text-sm font-medium text-[#2d2d2a]">{c.title}</div>
+  </div>
+))}
               </div>
             </div>
           </div>
         </section>
       </main>
+       {selectedImage && (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 backdrop-blur-sm px-4"
+          onClick={() => setSelectedImage(null)}
+        >
+          <div
+            className="max-h-[90vh] max-w-[90vw]"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <img
+              src={selectedImage.image}
+              alt={selectedImage.title}
+              className="max-h-[85vh] max-w-[90vw] rounded-2xl border border-white/10 object-contain"
+            />
+            <p className="mt-3 text-center text-sm text-white/85">
+              {selectedImage.title}
+            </p>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
