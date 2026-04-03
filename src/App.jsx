@@ -12,13 +12,13 @@ export default function ResumePortfolioSite() {
       period: "2020 — 2026",
       role: "Специалист по коммуникации",
       company: "Мэрия Москвы",
-      description: "Занимался продвижением проектов мэрии Москвы. Готовил тезисы, пресс-релизы, статьи для СМИ, посты для соцсетей, тексты для медиаэкранов. Делал выжимки с Reddit и X, переводы с английского, подборки. Курировал освещение программы «Мой район», участвовал в информационном сопровождении выборов, помогал в выпуске окружной газеты.",
+      description: "Занимался продвижением проектов мэрии Москвы. Готовил тезисы, пресс-релизы, статьи для СМИ, посты для соцсетей, тексты для медиаэкранов. Делал выжимки с Reddit и X, переводы с английского. Курировал освещение программы «Мой район», участвовал в информационном сопровождении выборов, помогал в выпуске окружной газеты.",
     },
     {
       period: "2018 — 2020",
       role: "Старший редактор",
-      company: "Официальный сайт Мэра Москвы mos.ru",
-      description: "Превращал официальные пресс-релизы в живые тексты, готовил большие статьи, брал интервью. Вел раздел «Афиша». Помогал с подготовкой постов для мэра и его команды. Весь контент я стремился сделать одновременно точным и понятным для широкой аудитории.",
+      company: "Сайт мэра Москвы mos.ru",
+      description: "Превращал официальные пресс-релизы в живые тексты, готовил большие статьи, брал интервью. Вел раздел «Афиша». Помогал с подготовкой постов для мэра и его команды. Весь контент делал одновременно точным и понятным для широкой аудитории.",
     },
     {
       period: "2013 — 2018",
@@ -42,13 +42,13 @@ export default function ResumePortfolioSite() {
         >
          такой текст 
         </a>{" "}
-        про район Нагатинский Затон.
+        про историю района Нагатинский Затон.
       </>
     ),
   },
 
   {
-    title: "Переводы с английского",
+    title: "Переводы",
     description: (
       <>
         Во время пандемии я работал специалистом в Инфоцентре по Covid-19, где переводил с английского научные исследования. Примеры:{" "}
@@ -80,7 +80,7 @@ export default function ResumePortfolioSite() {
     title: "Аналитика",
     description: (
       <>
-        Для блога про американский футбол написал материал о недостатках в методиках драфта игроков у профессиональных команд NFL. Эта статья до сих пор держит первое место по обсуждаемости на канале.{" "}
+        Для блога про американский футбол написал материал на 10 тысяч знаков о недостатках в методиках драфта игроков у команд NFL. Эта статья до сих пор держит первое место по обсуждаемости на канале.{" "}
         <a
           href="https://t.me/benchwarmersarehere/415"
           target="_blank"
@@ -97,7 +97,7 @@ export default function ResumePortfolioSite() {
     title: "Презентации",
     description: (
       <>
-        Для Московского урбанистического форума готовил {" "}
+        Для Московского урбанистического форума подготовил {" "}
         <a
           href="https://disk.yandex.ru/i/QaadHJMvVifUhQ"
           target="_blank"
@@ -155,7 +155,7 @@ export default function ResumePortfolioSite() {
 
       <main>
         <section id="about" className="mx-auto grid max-w-6xl grid-cols-1 items-center gap-6 px-6 py-8 lg:grid-cols-[1.45fr_0.85fr]">
-          <div className="relative overflow-hidden rounded-[2rem] border border-[#575752] bg-[linear-gradient(180deg,_rgba(255,255,255,0.58),_rgba(233,233,228,0.72))] p-7 shadow-[0_8px_24px_rgba(65,65,55,0.08)] ring-1 ring-black/5 transition duration-300 hover:-translate-y-1 hover:shadow-[0_12px_30px_rgba(65,65,55,0.10)] lg:p-8">
+          <div className="relative overflow-hidden rounded-[2rem] border border-[#575752] bg-[linear-gradient(180deg,_rgba(255,255,255,0.58),_rgba(233,233,228,0.72))] p-7 ring-1 ring-black/5 transition duration-300 hover:-translate-y-[2px]">
             <div className="absolute inset-x-0 top-0 h-20 bg-[linear-gradient(90deg,_rgba(255,255,255,0.45),_transparent)]" />
             <div className="relative">
               <div className="mb-5 inline-flex rounded-full border border-[#9a9a93] bg-white/45 px-4 py-2 text-[12px] font-medium uppercase tracking-[0.18em] text-[#5a5a55]">
@@ -198,7 +198,7 @@ export default function ResumePortfolioSite() {
         </section>
 
         <section id="experience" className="mx-auto max-w-6xl px-6 pb-6">
-          <div className="relative overflow-hidden rounded-[2rem] border border-[#575752] bg-[linear-gradient(180deg,_rgba(255,255,255,0.6),_rgba(230,230,224,0.75))] p-6 shadow-[0_8px_24px_rgba(65,65,55,0.08)] ring-1 ring-black/5 transition duration-300 hover:-translate-y-1 hover:shadow-[0_12px_30px_rgba(65,65,55,0.10)]">
+          <div className="relative overflow-hidden rounded-[2rem] border border-[#575752] bg-[linear-gradient(180deg,_rgba(255,255,255,0.6),_rgba(230,230,224,0.75))] p-6 ring-1 ring-black/5 transition duration-300 hover:-translate-y-[2px]">
             <div className="absolute inset-x-0 top-0 h-16 bg-[linear-gradient(90deg,_rgba(255,255,255,0.35),_transparent)]" />
             <div className="relative">
               <div className="mb-2 inline-flex rounded-full border border-[#9a9a93] bg-white/45 px-4 py-2 text-[12px] font-medium uppercase tracking-[0.18em] text-[#5a5a55]">
@@ -221,7 +221,7 @@ export default function ResumePortfolioSite() {
         </section>
 
         <section id="portfolio" className="mx-auto max-w-6xl px-6 pb-6">
-          <div className="relative overflow-hidden rounded-[2rem] border border-[#575752] bg-[linear-gradient(180deg,_rgba(255,255,255,0.6),_rgba(230,230,224,0.75))] p-6 shadow-[0_14px_40px_rgba(65,65,55,0.10)] ring-1 ring-black/5 transition duration-300 hover:-translate-y-1 hover:shadow-[0_22px_55px_rgba(65,65,55,0.14)]">
+          <div className="relative overflow-hidden rounded-[2rem] border border-[#575752] bg-[linear-gradient(180deg,_rgba(255,255,255,0.6),_rgba(230,230,224,0.75))] p-6 ring-1 ring-black/5 transition duration-300 hover:-translate-y-[2px]">
             <div className="absolute inset-x-0 top-0 h-16 bg-[linear-gradient(90deg,_rgba(255,255,255,0.35),_transparent)]" />
             <div className="relative">
               <div className="mb-2 inline-flex rounded-full border border-[#9a9a93] bg-white/45 px-4 py-2 text-[12px] font-medium uppercase tracking-[0.18em] text-[#5a5a55]">
@@ -244,7 +244,7 @@ export default function ResumePortfolioSite() {
         </section>
 
         <section id="certificates" className="mx-auto max-w-6xl px-6 pb-10">
-          <div className="relative overflow-hidden rounded-[2rem] border border-[#575752] bg-[linear-gradient(180deg,_rgba(255,255,255,0.6),_rgba(230,230,224,0.75))] p-6 shadow-[0_14px_40px_rgba(65,65,55,0.10)] ring-1 ring-black/5 transition duration-300 hover:-translate-y-1 hover:shadow-[0_22px_55px_rgba(65,65,55,0.14)]">
+          <div className="relative overflow-hidden rounded-[2rem] border border-[#575752] bg-[linear-gradient(180deg,_rgba(255,255,255,0.6),_rgba(230,230,224,0.75))] p-6 ring-1 ring-black/5 transition duration-300 hover:-translate-y-[2px]">
             <div className="absolute inset-x-0 top-0 h-16 bg-[linear-gradient(90deg,_rgba(255,255,255,0.35),_transparent)]" />
             <div className="relative">
               <div className="mb-4 inline-flex rounded-full border border-[#9a9a93] bg-white/45 px-4 py-2 text-[12px] font-medium uppercase tracking-[0.18em] text-[#5a5a55]">
