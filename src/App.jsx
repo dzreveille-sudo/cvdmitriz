@@ -50,16 +50,18 @@ useEffect(() => {
     title: "Статьи",
     description: (
       <>
-        Для mos.ru готовил материалы на городские темы. Например, {" "}
+        Для mos.ru готовил материалы на городские темы. Примеры: {" "}
         <a
           href="https://www.mos.ru/news/item/69392073/"
           target="_blank"
           rel="noreferrer"
           className="font-semibold text-orange-500 underline underline-offset-4 hover:!text-orange-600 transition"
         >
-         такой текст 
-        </a>{" "}
-        про историю района Нагатинский Затон.
+         история района Нагатинский Затон 
+        </a>{" "}, 
+        <a href="https://www.mos.ru/news/item/64742073/" target="_blank" className="font-semibold text-orange-500 underline underline-offset-4 hover:!text-orange-600 transition">интервью с научным директором Московского планетария</a>,{" "}
+        <a href="https://www.mos.ru/news/item/64439073/" target="_blank" className="font-semibold text-orange-500 underline underline-offset-4 hover:!text-orange-600 transition">гид по выставке памяти Дмитрия Брусникина</a>,{" "}
+        <a href="https://www.mos.ru/news/item/49668073/" target="_blank" className="font-semibold text-orange-500 underline underline-offset-4 hover:!text-orange-600 transition">интервью с генеральным директором Мосгортура</a>.
       </>
     ),
   },
