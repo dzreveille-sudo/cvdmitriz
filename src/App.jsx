@@ -57,8 +57,8 @@ useEffect(() => {
           rel="noreferrer"
           className="font-semibold text-orange-500 underline underline-offset-4 hover:!text-orange-600 transition"
         >
-         история района Нагатинский Затон 
-        </a>{" "}, 
+         история района Нагатинский Затон, 
+        </a>{" "} 
         <a href="https://www.mos.ru/news/item/64742073/" target="_blank" className="font-semibold text-orange-500 underline underline-offset-4 hover:!text-orange-600 transition">интервью с научным директором Московского планетария</a>,{" "}
         <a href="https://www.mos.ru/news/item/64439073/" target="_blank" className="font-semibold text-orange-500 underline underline-offset-4 hover:!text-orange-600 transition">гид по выставке памяти Дмитрия Брусникина</a>,{" "}
         <a href="https://www.mos.ru/news/item/49668073/" target="_blank" className="font-semibold text-orange-500 underline underline-offset-4 hover:!text-orange-600 transition">интервью с генеральным директором Мосгортура</a>.
