@@ -124,7 +124,13 @@ useEffect(() => {
         >
           PowerPoint презентацию 
         </a>{" "}
-         на 50+ страниц, посвященную принципам освещения каждой темы МУФа с учетом конкретной аудитории. 
+         на 50+ страниц, посвященную принципам освещения каждой темы МУФа с учетом конкретной аудитории. А по <a
+          href="https://disk.yandex.ru/d/koMm8P72HNvjxg"
+          target="_blank"
+          className="font-semibold text-orange-500 underline underline-offset-4 hover:!text-orange-600 transition"
+        >
+          этой ссылке 
+        </a>{" "} – презентация по развитию транспорта Москвы до 2030 года. 
       </>
     ),
   },
